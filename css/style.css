@@ -34,13 +34,13 @@ header {
 @media (min-width: 640px) {
   #main h2 .pc_h2 {
     width: 100%; }
-  #main h2 .sp_h2 {
+  #main h2 .sp_h2_1, #main h2 .sp_h2 {
     display: none; } }
 @media (max-width: 640px) {
   #main h2 {
     text-align: center;
     clear: both; }
-    #main h2 .sp_h2_1 {
+    #main h2 .sp_h2_1, #main h2 .sp_h2 {
       width: 100%; }
     #main h2 .pc_h2 {
       display: none; } }
@@ -197,14 +197,14 @@ header {
       position: relative;
       margin: 30px 0;
       padding-left: 1.6rem; }
-    #main #products .detail h4:before {
-      position: absolute;
-      content: " ";
-      width: 1.4rem;
-      height: 1.4rem;
-      background-color: #887f69;
-      top: 0.3rem;
-      left: 0rem; }
+      #main #products .detail h4:before {
+        position: absolute;
+        content: " ";
+        width: 1.4rem;
+        height: 1.4rem;
+        background-color: #887f69;
+        top: 0.3rem;
+        left: 0rem; }
     #main #products .detail table {
       width: 100%;
       color: #a6a6a6; }
