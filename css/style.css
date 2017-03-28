@@ -40,7 +40,7 @@ header {
   #main h2 {
     text-align: center;
     clear: both; }
-    #main h2 .sp_h2_1, #main h2 .sp_h2 {
+    #main h2 .sp_h2_1 {
       width: 100%; }
     #main h2 .pc_h2 {
       display: none; } }
@@ -382,6 +382,10 @@ header {
     visibility: hidden; }
 #main #pagetop {
   text-align: right; }
+  @media (max-width: 640px) {
+    #main #pagetop {
+      padding: 10px 0;
+      text-align: center; } }
 
 footer {
   text-align: center;

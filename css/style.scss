@@ -72,7 +72,7 @@ header{
             text-align:center;
             clear:both;
             
-            .sp_h2_1, .sp_h2{
+            .sp_h2_1 {
                 width:100%;
             }
             
@@ -578,6 +578,11 @@ header{
     
     #pagetop{
         text-align:right;
+        
+        @media (max-width: 640px) {
+            padding:10px 0;
+            text-align:center;
+        }
     }
 }//main
 
