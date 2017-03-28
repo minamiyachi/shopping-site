@@ -55,11 +55,17 @@
             </div>
             
             <div class="ten columns navi">
-                <div calss="sp_navi">
+                <div class="sp_navi">
                     <ul class="sp_navi_li">
                         <li class="navi_facebook"><a href="#"><img src="images/top_sp/fb.png" alt="facebook" srcset="images/top_sp/fb@2x.png 2x" /></a></li>
                         <li class="navi_instagram"><a href="#"><img src="images/top_sp/insta.png" alt="instagram" srcset="images/top_sp/insta@2x.png 2x" /></a></li>
                         <li class="navi_menu"><a href="#"><img src="images/top_sp/menu_icon.png" alt="menu" srcset="images/top_sp/menu_icon@2x.png 2x" /></a></li>
+                    </ul>
+                    <ul class="sp_menu_toggle_00">
+                         <li class="navi_login"><a href="#"><img src="images/top/menu_login.png" alt="login"></a></li>
+                        <li class="navi_cart"><a href="#"><img src="images/top/menu_cart.png" alt="cart"></a></li>
+                        <li class="navi_mypage"><a href="#"><img src="images/top/menu_mypage.png" alt="mypage"></a></li>
+                        <li class="navi_shoppingguide"><a href="#"><img src="images/top/menu_guide.png" alt="shoppingguide"></a></li>
                     </ul>
                 </div><!-- sp_navi -->
                 
@@ -300,6 +306,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <script>
+
+
+$(document).ready(function(){
+  $(".navi_menu").click(function(){
+    $(".sp_menu_toggle_00").slideToggle();
+  });
+});
 
 $(document).ready(function(){
   $("#link").click(function(){

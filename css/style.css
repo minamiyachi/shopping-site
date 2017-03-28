@@ -30,6 +30,20 @@ header {
       header .sp_navi_li li {
         display: inline-block;
         padding: 0 5px; } }
+  header .navi_menu {
+    cursor: pointer; }
+  header .sp_menu_toggle_00 {
+    display: none;
+    list-style: none; }
+    header .sp_menu_toggle_00 li {
+      padding: 10px 20px;
+      margin-bottom: 1px;
+      background-color: #fff; }
+      header .sp_menu_toggle_00 li a {
+        text-decoration: none;
+        color: #000; }
+        header .sp_menu_toggle_00 li a:hover {
+          color: #535252; }
 
 @media (min-width: 640px) {
   #main h2 .pc_h2 {
@@ -338,17 +352,17 @@ header {
   background-color: #887f69;
   padding: 10px 20px;
   margin-top: 8px; }
-#main .sp_menu_toggle_01, #main .sp_menu_toggle_02 {
+#main .sp_menu_toggle_00, #main .sp_menu_toggle_01, #main .sp_menu_toggle_02 {
   display: none;
   list-style: none; }
-  #main .sp_menu_toggle_01 li, #main .sp_menu_toggle_02 li {
+  #main .sp_menu_toggle_00 li, #main .sp_menu_toggle_01 li, #main .sp_menu_toggle_02 li {
     padding: 10px 20px;
     margin-bottom: 1px;
     background-color: #fff; }
-    #main .sp_menu_toggle_01 li a, #main .sp_menu_toggle_02 li a {
+    #main .sp_menu_toggle_00 li a, #main .sp_menu_toggle_01 li a, #main .sp_menu_toggle_02 li a {
       text-decoration: none;
       color: #000; }
-    #main .sp_menu_toggle_01 li :hover, #main .sp_menu_toggle_02 li :hover {
+    #main .sp_menu_toggle_00 li :hover, #main .sp_menu_toggle_01 li :hover, #main .sp_menu_toggle_02 li :hover {
       color: #535252; }
 #main #about, #main #shopinfo {
   background-color: #fff; }

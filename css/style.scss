@@ -53,6 +53,28 @@ header{
             }
         }
     }//max-width: 640px
+    
+    .navi_menu {
+        cursor: pointer;
+    }
+    .sp_menu_toggle_00 {
+        display: none;
+        list-style:none;
+        
+        li{
+            padding:10px 20px;
+            margin-bottom:1px;
+            background-color:#fff;
+       
+            a{
+                text-decoration:none;
+                color:#000;
+            
+            &:hover{
+                color:#535252;
+            }}
+        }//li
+    }//sp_menu_toggle_01, .sp_menu_toggle_02
 }//header
 
 
@@ -506,7 +528,7 @@ header{
         margin-top:8px;
     }
     
-    .sp_menu_toggle_01, .sp_menu_toggle_02 {
+    .sp_menu_toggle_00,.sp_menu_toggle_01, .sp_menu_toggle_02 {
         display: none;
         
         
