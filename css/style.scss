@@ -36,16 +36,20 @@ header{
     }//min-width: 640px
     
     @media (max-width: 640px) {
+        margin: 5px 0;
+        
         .pc_navi_li{
             display:none;
         }
         h1{
             text-align:center;
-            padding-top:20px;
+            padding-top:15px;
+            margin:0;
         }
         .sp_navi_li{
             list-style:none;
             text-align:center;
+            margin:0;
         
             li{
                 display:inline-block;
@@ -135,11 +139,20 @@ header{
             li+li:last-child{
                 content:"";
             }
+        @media (max-width: 640px) {
+            font-size: 1.4rem;
+            padding:10px 0;
+            margin-bottom: 15px;
+            }
     }//pankuzu
     
     #products{
         background-color:#fff;
         padding: 20px 50px;
+        
+        @media (max-width: 640px) {
+            padding: 20px 10px;   
+        }
         
         #h2_product{
             font-size:1.4rem;
@@ -150,8 +163,8 @@ header{
             @media (max-width: 640px) {
                 float:none;
                 text-align:left;
-                font-size:2.8rem;
-                padding: 0;
+                font-size:2.6rem;
+                padding: 10px 0;
                 margin:0;
             }
         }
@@ -369,6 +382,10 @@ header{
         flex-flow:row wrap;
         justify-content:space-between;
         
+        @media (max-width: 640px) {
+            margin: 0;
+        }
+        
         li{
             padding:14px;
             background-color:#FFF;
@@ -380,9 +397,9 @@ header{
             }
         
         
-        @media (max-width: 640px) {
-            flex-basis:48%;
-        }
+            @media (max-width: 640px) {
+                flex-basis:48%;
+            }
         }
     }//list_item
     
@@ -602,7 +619,7 @@ header{
         text-align:right;
         
         @media (max-width: 640px) {
-            padding:10px 0;
+            padding: 20px 0;
             text-align:center;
         }
     }

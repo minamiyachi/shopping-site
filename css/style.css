@@ -19,17 +19,21 @@ header {
         display: inline-block;
         padding: 0 10px; } }
   @media (max-width: 640px) {
-    header .pc_navi_li {
-      display: none; }
-    header h1 {
-      text-align: center;
-      padding-top: 20px; }
-    header .sp_navi_li {
-      list-style: none;
-      text-align: center; }
-      header .sp_navi_li li {
-        display: inline-block;
-        padding: 0 5px; } }
+    header {
+      margin: 5px 0; }
+      header .pc_navi_li {
+        display: none; }
+      header h1 {
+        text-align: center;
+        padding-top: 15px;
+        margin: 0; }
+      header .sp_navi_li {
+        list-style: none;
+        text-align: center;
+        margin: 0; }
+        header .sp_navi_li li {
+          display: inline-block;
+          padding: 0 5px; } }
   header .navi_menu {
     cursor: pointer; }
   header .sp_menu_toggle_00 {
@@ -81,9 +85,17 @@ header {
     left: 0; }
   #main .breadcrumbs li + li:last-child {
     content: ""; }
+  @media (max-width: 640px) {
+    #main .breadcrumbs {
+      font-size: 1.4rem;
+      padding: 10px 0;
+      margin-bottom: 15px; } }
 #main #products {
   background-color: #fff;
   padding: 20px 50px; }
+  @media (max-width: 640px) {
+    #main #products {
+      padding: 20px 10px; } }
   #main #products #h2_product {
     font-size: 1.4rem;
     font-weight: bold;
@@ -93,8 +105,8 @@ header {
       #main #products #h2_product {
         float: none;
         text-align: left;
-        font-size: 2.8rem;
-        padding: 0;
+        font-size: 2.6rem;
+        padding: 10px 0;
         margin: 0; } }
   #main #products #p_product {
     color: #a6a6a6;
@@ -241,6 +253,9 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between; }
+  @media (max-width: 640px) {
+    #main .list_item {
+      margin: 0; } }
   #main .list_item li {
     padding: 14px;
     background-color: #FFF;
@@ -398,7 +413,7 @@ header {
   text-align: right; }
   @media (max-width: 640px) {
     #main #pagetop {
-      padding: 10px 0;
+      padding: 20px 0;
       text-align: center; } }
 
 footer {
